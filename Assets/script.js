@@ -9,8 +9,8 @@ $(document).ready(function() {
   currentDayElement.html(day.toDateString());
   console.log(time);
 
-  var time = 10;
-  //loads the preseant css class if it is the current time 
+  // var time = 10; --- using to change the time to test if statements for css changes
+  //if statements to change the css based on time 
   if (9 <= time&& 10 > time) {
     $("#hourNine").addClass("present")
   } else if (9 > time) {
